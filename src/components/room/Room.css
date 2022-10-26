@@ -1,0 +1,62 @@
+.room {
+    max-width: 1024px;
+    min-width: 320px;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*display: grid;*/
+    /*grid-template-rows: 62px auto 52px;*/
+    /*grid-template-areas:*/
+    /*"h"*/
+    /*"m"*/
+    /*"i"*/
+    /*;*/
+}
+
+.room__header-wrapper {
+    grid-area: h;
+}
+
+.room__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room__link {
+    font-size: 16px;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.room__user-name {
+    font-size: 16px;
+}
+
+/*.room__main {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    min-height: 100vh;*/
+/*}*/
+
+.room__name {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.messages {
+    background-color: aliceblue;
+    border-radius: 20px;
+    grid-area: m;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.room__input {
+    grid-area: i;
+}

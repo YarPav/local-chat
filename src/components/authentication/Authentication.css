@@ -1,0 +1,28 @@
+.authentication {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    width: 100%;
+    max-width: 540px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    row-gap: 20px;
+}
+
+.authentication__text {
+    border: 2px solid #49a0d7;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.authentication__submit {
+    background-color: #49a0d7;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: aliceblue;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.send-message {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.send-message__files {
+    display: flex;
+    /*padding: 10px 0;*/
+}
+
+.send-message__form {
+    display: flex;
+    align-items: center;
+    /*padding-top: 10px;*/
+}
+
+.send-message__add-file-img {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.send-message__send-button {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.react-input-emoji--container {
+    margin: 0;
+}
