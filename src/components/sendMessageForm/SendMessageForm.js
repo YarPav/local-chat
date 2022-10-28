@@ -41,23 +41,6 @@ const SendMessageForm = (props) => {
             setFiles([]);
             dispatch(setReplyId(null));
         }
-        // const roomsData = JSON.parse(localStorage.getItem('rooms'));
-        // const roomIndex = roomsData.findIndex(i => i.roomName === room);
-        // const messageObj = {
-        //     id: v4(),
-        //     message: message,
-        //     author: name,
-        //     replyOn: replyOn,
-        //     media: files
-        // };
-        // roomsData[roomIndex].messages = roomsData[roomIndex].messages.concat(messageObj);
-        // localStorage.setItem
-        // ('rooms', JSON.stringify
-        // (roomsData));
-        // dispatch(addMessage(messageObj));
-        // setMessage('');
-        // setFiles([]);
-        // dispatch(setReplyId(null));
     }
     const onFileInputChange = (e) => {
         const file = e.target.files[0];
