@@ -45,7 +45,7 @@ const SendMessageForm = (props) => {
     const onFileInputChange = (e) => {
         const file = e.target.files[0];
         const fr = new FileReader();
-        fr.readAsDataURL(e.target.files[0]);
+        fr.readAsDataURL(file);
         fr.addEventListener('loadend', (e) => {
             setFiles(state => [...state, {isImg: file.type.startsWith('image/'), path: e.target.result}]);
         });
